@@ -98,9 +98,10 @@ main{
     display: flex;
     justify-content: space-around;
 }
+
 .skill-list, .card ul{
     background-color: #ffffff9c;
-    list-style: square;
+    /* list-style: square; */
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-right: 2rem;
@@ -108,6 +109,7 @@ main{
     font-size: large;
     box-shadow: 5px 5px;
 }
+
 .card{
     margin-left: 2rem;
     margin-right: 2rem;
