@@ -1,0 +1,156 @@
+html { 
+    background: url(../images/pexels-henry-&-co-1939485.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+body{
+    color: #576574;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: #576574;
+}
+.navbar a:hover{
+    cursor: pointer;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    margin: 0 1rem 0 0;
+    padding: 0 1rem 0 1rem;
+    font-size: 120%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    width: 100%;
+    background-color: #ffffff99;
+
+    
+}
+#footer-content1{
+    padding-left: 5px;
+}
+#footer-content2{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding-right: 5px;
+}
+
+
+/* css for homepage */
+main{
+    margin-top: 5%;
+  
+}
+.display-photo{
+    max-height: 30rem; 
+    box-shadow: 1rem -1rem #0abde3;
+}
+.home-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#text-line1{
+    background-color: #00d2d3;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    font-size: 90%;
+}
+#text-line2{
+    font-size: 400%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.primary-btn{
+    text-decoration: none;
+    background-color: #10ac84;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-right: 1rem;
+    border-radius: 9px;
+}
+.primary-btn:hover{
+    background-color: #1dd1a1;
+    cursor: pointer;
+}
+
+
+
+
+
+/* css for experience page */
+.container{
+    padding: 0 2rem 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.skill-list, .card ul{
+    background-color: #ffffff9c;
+    list-style: square;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+    font-size: large;
+    box-shadow: 5px 5px;
+}
+.card{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.card a{
+    text-decoration: none;
+    font-size: 120%;
+    color: #576574;
+}
+.card a:hover{
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  tr:nth-child(odd) {background-color: #c8d6e5;}
+  th{
+    background-color: #576574;
+    color: white;
+  }
+  @media only screen and (max-width: 1200px) {
+    .container{
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 481px) {
+    .home-content, .container{
+        flex-direction: column;
+    }
+    .home-content .flex-item{
+        margin-bottom: 3.5rem;
+    }
+    .display-photo{
+        box-shadow: none;
+    }
+    
+}
